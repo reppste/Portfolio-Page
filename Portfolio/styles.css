@@ -1,0 +1,26 @@
+body{
+    background-color: lightgray;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+.index-grid-items{
+    border: 2px solid black;
+    
+}
+
+#index-grid-about{
+    border: 2px solid black;
+    max-height: 115px;
+}
+
+#index-grid-about a{
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+    border-right: 2px solid black;
+    align-items: center;
+}
